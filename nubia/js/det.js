@@ -41,7 +41,7 @@ $(document).ready(function(){
 			//alert(data.length);
 			//初始默认的选择
 			
-			$(".phone-color").children().eq(2).css("border-color","red").siblings().css("border-color","#e9e9e9");
+			$(".phone-color").children().eq(2).addClass("activec").css("border-color","red").siblings().removeClass("activec").css("border-color","#e9e9e9")
     		$(".cont .cont-left img").attr("src","detimg/pic"+2+".png");
     		$(".cont .cont-right .phone-edition").html("<li>"+data[2].title1.edition+"</li>");
     		$(".cont .cont-right .select-edition span").html(data[2].title1.det);
@@ -58,9 +58,9 @@ $(document).ready(function(){
 					        				'<p class="jianjie">'+data[2].title1.active+'</p>'+
 					        				'<p class="total">总计：￥<span>'+data[2].title1.price+'</span></p>'+
 					        				
-					        				'<p class="huabei">支持花呗分期：</p><ul class="select-huabei"><li><span>￥1431.86*3</span><p>(含￥96.58手续费)</p></li><li><span>￥699.83*6</span><p>(含￥0.00手续费)</p></li><li><span>￥377.91*12</span><p>(含￥335.92手续费)</p></li></ul>'+
-					        				'<a class="buy" href="shop-car.html">立即购买</a>'+
-					        			'</div>')
+					        				'<p class="huabei">支持花呗分期：</p><ul class="select-huabei"><li><span>￥1431.86*3</span><p>(含￥96.58手续费)</p></li><li><span>￥699.83*6</span><p>(含￥0.00手续费)</p></li><li><span>￥377.91*12</span><p>(含￥335.92手续费)</p></li></ul></div>'+
+					        				'<a class="buy" >立即购买</a>'
+					        			)
 			//top-menu
 			$(".top-menu .p1").html('<a class="buy" href="shop-car.html">立即购买</a>')
 			$(".top-menu .p3").html('nubia Z11'+ data[2].name+" "+ data[2].title1.edition);
@@ -71,7 +71,7 @@ $(document).ready(function(){
 	        	$(".phone-color li").eq(i).click(function(){
 	        		//alert($(this).index())
 	        		//改变边框颜色
-	        		$(this).css("border-color","red").siblings().css("border-color","#e9e9e9");
+	        		$(this).addClass("activec").css("border-color","red").siblings().removeClass("activec").css("border-color","#e9e9e9")
 	        		$(".cont .cont-left img").attr("src","detimg/pic"+$(this).index()+".png");
 	        		$(".cont .cont-right .phone-edition").html("<li>"+data[$(this).index()].title1.edition+"</li>");
 	        		$(".cont .cont-right .select-edition span").html(data[$(this).index()].title1.det);
@@ -95,9 +95,9 @@ $(document).ready(function(){
 					        				'<p class="jianjie">'+data[$(this).index()].title1.active+'</p>'+
 					        				'<p class="total">总计：￥<span>'+data[$(this).index()].title1.price+'</span></p>'+
 					        				
-					        				'<p class="huabei">支持花呗分期：</p><ul class="select-huabei"><li><span>￥1431.86*3</span><p>(含￥96.58手续费)</p></li><li><span>￥699.83*6</span><p>(含￥0.00手续费)</p></li><li><span>￥377.91*12</span><p>(含￥335.92手续费)</p></li></ul>'+
-					        				'<a class="buy" href="shop-car.html">立即购买</a>'+
-					        			'</div>')
+					        				'<p class="huabei">支持花呗分期：</p><ul class="select-huabei"><li><span>￥1431.86*3</span><p>(含￥96.58手续费)</p></li><li><span>￥699.83*6</span><p>(含￥0.00手续费)</p></li><li><span>￥377.91*12</span><p>(含￥335.92手续费)</p></li></ul></div>'+
+					        				'<a class="buy" >立即购买</a>'
+					        			)
 		        				
 	        					//top-menu
 								$(".top-menu .p1").html('<a class="buy" href="shop-car.html">立即购买</a>')
@@ -113,9 +113,9 @@ $(document).ready(function(){
 		        				'<p class="selected">你选择的商品：</p>'+
 		        				'<p class="selected-size">nubia Z11 '+data[$(this).index()].name+ data[$(this).index()].title1.edition+'<span></span></p>'+
 		        				'<p class="jianjie">'+data[$(this).index()].title1.active+'</p>'+
-		        				'<p class="total">总计：￥<span>'+data[$(this).index()].title1.price+'</span></p>'+
-		        				'<a class="buy">缺货登记</a>'+
-	        				'</div>')
+		        				'<p class="total">总计：￥<span>'+data[$(this).index()].title1.price+'</span></p></div>'+
+		        				'<a class="buy">缺货登记</a>'
+	        				)
 	        			$(".shifty .buy").css('background',"#ADACAC");
 	        			//top-menu
 						$(".top-menu .p1").html('<a class="buy">缺货登记</a>')
@@ -134,9 +134,9 @@ $(document).ready(function(){
 	        			$(".shifty").html('<div class="phone-net-zj">'+
 		        				'<p class="selected">你选择的商品：</p>'+
 		        				'<p class="selected-size">nubia Z11 '+data[$(this).index()].name+'<span></span></p>'+
-		        				'<p class="jianjie"></p>'+
-		        		        '<a class="buy" href="shop-car.html">立即购买</a>'+
-	        				'</div>')
+		        				'<p class="jianjie"></p></div>'+
+		        		        '<a class="buy" href="shop-car.html">立即购买</a>'
+	        				)
 	        			//top-menu
 	        			$(".top-menu .p1").html('<a class="buy" href="shop-car.html">立即购买</a>')
 						$(".top-menu .p3").html('nubia Z11 '+data[$(this).index()].name);
@@ -159,9 +159,9 @@ $(document).ready(function(){
 					        				'<p class="jianjie">'+data[6].title1.active+'</p>'+
 					        				'<p class="total">总计：￥<span>'+data[6].title1.price+'</span></p>'+
 					        				
-					        				'<p class="huabei">支持花呗分期：</p><ul class="select-huabei"><li><span>￥1431.86*3</span><p>(含￥96.58手续费)</p></li><li><span>￥699.83*6</span><p>(含￥0.00手续费)</p></li><li><span>￥377.91*12</span><p>(含￥335.92手续费)</p></li></ul>'+
-					        				'<a class="buy" href="shop-car.html">立即购买</a>'+
-					        			'</div>');
+					        				'<p class="huabei">支持花呗分期：</p><ul class="select-huabei"><li><span>￥1431.86*3</span><p>(含￥96.58手续费)</p></li><li><span>￥699.83*6</span><p>(含￥0.00手续费)</p></li><li><span>￥377.91*12</span><p>(含￥335.92手续费)</p></li></ul></div>'+
+					        				'<a class="buy" href="shop-car.html">立即购买</a>'
+					        			);
 					        //top-menu
 							$(".top-menu .p1").html('<a class="buy" href="shop-car.html">立即购买</a>')
 							$(".top-menu .p3").html('nubia Z11 '+ data[6].name+" "+data[6].title1.edition);
@@ -264,6 +264,13 @@ $(document).ready(function(){
 		
 		
 });
+$(function(){
+	
+	$(".shifty").on("click",".buy",function(){
+		$.cookie('goods',$(".img_out").attr("src")); 
+	//alert($.cookie('goods'))
+	})
+})
 
 
 
