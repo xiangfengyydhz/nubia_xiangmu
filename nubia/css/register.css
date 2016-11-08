@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #F5F5F5;
+}
+/*-------------------------------content-----------------------------------------*/
+.cont{
+	width: 850px;
+	background: #fff;
+	margin: 60px auto 40px;
+	padding-top: 60px;
+	display: block;
+	
+}
+.tab_nav{
+	
+	width: 344px;
+	height: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+	padding-right: 8px;
+	padding-left: 8px ;
+}
+.tab_nav .label_left{
+	border-right: 2px solid #33335A;
+	padding-right: 8px;
+	font-size: 18px;
+    color: #333;
+    float: left;
+    
+}
+.tab_nav .label_rig {
+	font-size: 18px;
+    color: #333;
+    float: right;
+}
+.tab_nav .active{
+	color: red;
+}
+
+#phone_num{
+	display: none;
+	padding-bottom: 50px;
+}
+#phone_num span,#mail_num span{
+	color: red;
+	font-size: 12px;
+	margin-left: 5px;
+}
+#mail_num{
+	display: none;
+	padding-bottom: 50px;
+}
+
+
+.cont form input{
+	margin-left: 245px;
+	margin-top: 20px;
+	border:1px solid #E0E4E7;
+	padding-left: 10px;
+	color: #9C9C9C;
+	height: 50px;
+}
+.tab_main{
+	margin-top:10px;
+	overflow: hidden;
+}
+#phone_tel input, #address input{
+	width: 350px;
+}
+#address input, #password_form input,#password_form1 input{
+	width: 350px;
+}
+#password_form,#password_form1{
+	height: 54px;
+	width: 517px;
+	margin-left: 245px;
+	margin-top: 20px;
+}
+#password_form input,#password_form1 input{
+	margin-top: 0;
+	margin-left: 0;
+	float: left;
+}
+#password_form p,#password_form1 p{
+	float: right;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	color: red;
+	font-size: 12px;
+	white-space: nowrap;
+}
+#ver_code,#ver_code1{
+	height: 52px;
+	line-height: 52px;
+	width: 572px;
+	margin-left: 245px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+#ver_code .ver_left,#ver_code1 .ver_left{
+	height: 50px;
+	float: left;
+	width: 235px;
+	border:1px solid #E0E4E7;
+	padding-left: 10px;
+	
+}
+#ver_code .ver_middle,#ver_code1 .ver_middle{
+	color: red;
+	font-size: 26px;
+	font-weight: 700;
+	text-align: center;
+	height: 46px;
+	line-height: 46px;
+	float: left;
+	margin-left:0;
+	display: block;
+	width: 105px;
+	border:1px solid #0E1184;
+	margin-left: 10px;
+	cursor: pointer;
+	
+}
+#ver_code .ver_rig,#ver_code1 .ver_rig{
+	float: right;
+	width: 200px;
+}
+#gain_code,#gain_code1{
+	width: 472px;
+	height: 54px;
+	vertical-align: center;
+	overflow: hidden;
+	margin-left: 245px;
+	margin-top: 20px;
+}
+#gain_code input,#gain_code1 input{
+	height: 50px;
+	width: 255px;
+	float: left;
+	color: #9C9C9C;
+	padding-left: 10px;
+	border:1px solid #E0E4E7;
+}
+
+#gain_code a,#gain_code1 a{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #484848;
+	font-size: 12px;
+	width: 95px;
+	border:1px solid #E0E4E7;
+	border-left: 0;
+	float: left;
+	cursor: pointer;
+}
+
+#gain_code span,#gain_code1 span{
+	margin-top: 10px;
+	float: right;
+	width: 100px;
+}
+.cont #deal{
+	margin-top: 20px;
+	margin-left: 245px;
+	font-size:12px ;
+	color: #000;
+}
+.cont #deal input{
+	float:left
+}
+.cont #deal a{
+	color: red;
+	cursor: pointer
+}
+.cont #deal a:hover{
+	text-decoration: underline;
+}
+#sub input{
+	height: 52px;
+	width: 362px;
+	background: red;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: ;
+}
+.cont h2{
+	font-size: 14px;
+	color: #666;
+	font-weight: 500;
+	margin: 20px 0 50px 480px;
+}
+.cont h2 a{
+	color: red;
+	cursor: pointer;
+}
+.cont h2 a:hover{
+	text-decoration: underline;
+}
+

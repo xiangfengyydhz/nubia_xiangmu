@@ -1,0 +1,29 @@
+
+[
+	{"clas":"fa-mobile phone","num1":"Z系列","num2":"Z11系列/Z9系列",
+ 		"a":[{"imgurl":"shop-img/z11.jpg","name":"nubia Z11"},
+			{"imgurl":"shop-img/z11max.jpg","name":"nubia Z11Max"},
+			{"imgurl":"shop-img/z9max.jpg","name":"nubia Z9 Max"},
+			{"imgurl":"shop-img/z11mini.jpg","name":"nubia Z11mini"},
+			{"imgurl":"shop-img/z9mini.jpg","name":"nubia Z9 mini"},
+			{"imgurl":"shop-img/z9.jpg","name":"nubia Z9"}]
+	},{"clas":"fa-mobile phone","num1":"M系列","num2":"布拉格S/My布拉格",
+	 "a":[{"imgurl":"shop-img/bulages.jpg","name":"nubia 布拉格S"},
+		 {"imgurl":"shop-img/myprague.jpg","name":"nubia My 布拉格"}]
+	},{"clas":"fa-mobile phone","num1":"N系列","num2":"N1",
+		"a":[{"imgurl":"shop-img/z11.jpg","name":"nubia N1"}]
+	},{"clas":"fa-headphones","num1":"配件","num2":"耳机/保护壳/皮套",
+		"a":[{"imgurl":"shop-img/nav-erji.jpg","name":"耳机"},
+			{"imgurl":"shop-img/access3.jpg","name":"保护壳"},
+			{"imgurl":"shop-img/access5.jpg","name":"皮套"},
+			{"imgurl":"shop-img/access2.jpg","name":"贴膜"},
+			{"imgurl":"shop-img/access4.jpg","name":"数据线/充电器"}]		
+	},{"clas":"fa-sun-o","num1":"周边产品","num2":"移动电源/自拍杆",
+		"a":[{"imgurl":"shop-img/other4.jpg","name":"移动电源"},
+			 {"imgurl":"shop-img/other2.jpg","name":"蓝牙找寻器"},
+			 {"imgurl":"shop-img/other5.jpg","name":"自拍杆"},
+			 {"imgurl":"shop-img/other7.jpg","name":"摄影三脚架"},
+			 {"imgurl":"shop-img/other8.jpg","name":"努比亚随身路由"}]		
+		}
+]
+
